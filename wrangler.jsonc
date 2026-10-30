@@ -1,0 +1,14 @@
+{
+  // This must match your Worker name in Cloudflare (hpcweb4).
+  "name": "hpcweb4",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "thp-church",
+      // Replace the text below with your Database ID from Cloudflare (README step 2). Keep the quote marks.
+      "database_id": "PASTE-YOUR-DATABASE-ID-HERE"
+    }
+  ]
+}
